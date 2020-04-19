@@ -226,6 +226,18 @@ input[type=submit] {
 
 @media screen and (max-width: 640px){
   #masthead {
-    position: fixed;
+   position: fixed; 
+  }
+
+  #logo {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 }
